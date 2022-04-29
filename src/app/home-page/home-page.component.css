@@ -1,0 +1,47 @@
+
+input:hover,span:hover{
+    background:linear-gradient(50deg,pink 30%,rgb(91, 235, 127) 40%,rgb(94,250 , 129) 35%);
+}
+.rightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image:url(../../assets/right.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.marquefoot{
+    color:grey;
+    background-color: black;
+    height: auto;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-shadow: 2px 2px #04f1f1 ,0px 2px #0473f1;
+
+}
+p{
+    text-align: justify;
+    font-size: medium;
+}
+.contain{
+    margin: 10px;
+    padding: 10px;
+}
+.forgetpassword{
+    cursor: pointer;
+    margin: 10px;
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+.HomePage{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+/* input[type="text"]::placeholder,input[type="tel"]::placeholder { 
+   text-align: left;
+} */

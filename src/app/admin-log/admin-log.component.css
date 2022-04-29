@@ -1,0 +1,6 @@
+.card{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;margin-top: 250px;
+}

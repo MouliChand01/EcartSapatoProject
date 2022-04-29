@@ -1,0 +1,36 @@
+<div class="orderConfirm">
+    <div class="mainHead">
+        <h1>ORDER CONFIRMATION</h1>
+    </div>
+    <div>
+        <h3><b>Customer Id :</b>10093837</h3>
+        <h3><b>Customer Name :</b>{{name | uppercase}}</h3>
+        <table class="table">
+            <thead class="table-active" style="background-color: aqua;"><td>Order Date</td><td> Order Id</td><td> Order Time</td></thead>
+            <tbody><td>{{systemdate}}</td><td>112-9091047-294332</td><td>{{systemtime}}</td></tbody>
+        </table>
+        <br>
+        <table class="table" id="exceldata">
+            <thead  style="background-color: aqua;">
+                <td>Item Title</td>
+                <td>Item Quentity</td>
+                <td>Item Price</td>
+            </thead>
+            <tbody *ngFor="let item of loadData">
+                <td>{{item.title | uppercase}}</td>
+                <td>1Kg</td>
+                <td>${{item.price}}.00</td>
+        
+            </tbody>
+            <tfoot>
+                <td colspan="2"> Grand Total : </td>
+                <td style="background-color: rgb(0, 255, 200);">{{grandTotal}} /- Rupes</td>
+            </tfoot>
+        </table>
+    </div>
+    <div class="footbtn">
+        <button mat-raised-button color="primary" (click)="makeexcel()">download</button> &nbsp;
+        <button mat-raised-button color="primary" (click)="backAction()">Back</button> &nbsp;
+        <button mat-raised-button color="warn" (click)="procedToPay()" >Proceed to Payment</button>
+    </div>
+</div>

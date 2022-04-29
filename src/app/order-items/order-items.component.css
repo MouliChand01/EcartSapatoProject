@@ -1,0 +1,15 @@
+.orderConfirm{
+    width: 50%;
+    margin: 50px 10px 10px 10px ;
+}
+.mainHead{
+    background-color: rgb(9, 218, 138);
+    color: aliceblue;
+    width: fit-content;
+}
+thead,tfoot{
+    font-weight: bold;
+}
+.footbtn{
+    text-align: right;
+}

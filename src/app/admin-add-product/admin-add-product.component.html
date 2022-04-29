@@ -1,0 +1,25 @@
+<div class="NewProduct">
+    <div class="container">
+        <div class="card">
+            <div class="card-footer" style="text-align: center;">
+                <h2>ADDING NEW PRODUCT</h2>
+            </div>
+            <div class="card-body">
+                <form (ngSubmit)="AddProduct()">
+                    <select class="form-select" (change)="onselected($event)">
+                        <option selected disabled >Select Product Cata </option>
+                        <option value="Vagetables">Vagetables</option>
+                        <option value="fruits">fruits</option>
+                        <option value="grocerries">grocerries</option>
+                    </select>
+                    <input type="text" placeholder="Enter ProductName" class="form-control" name = "" [(ngModel)]="NewData.title"  [ngModelOptions]="{standalone: true}">
+                    <input type="tel" placeholder="Enter ProductPrice" class="form-control"  name=""[(ngModel)]="NewData.price"  [ngModelOptions]="{standalone: true}">
+                    <input class="form-control" type="file" (change)="onFlieselected($event)">
+                    <div class="card-footer" style="text-align: center;">
+                        <button type="submit">AddNew Product</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

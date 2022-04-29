@@ -1,0 +1,366 @@
+{
+  "ListOfVagetables": [
+    {
+      "id": 1,
+      "title": "carrot",
+      "price": 20,
+      "src": "assets/carot.PNG"
+    },
+    {
+      "id": 2,
+      "title": "onion",
+      "price": 20,
+      "src": "assets/onion.PNG"
+    },
+    {
+      "id": 3,
+      "title": "corn",
+      "price": 20,
+      "src": "assets/corn.PNG"
+    },
+    {
+      "id": 4,
+      "title": "potato",
+      "price": 20,
+      "src": "assets/potato.PNG"
+    },
+    {
+      "id": 5,
+      "title": "sweet patato",
+      "price": 20,
+      "src": "assets/sweetpotato.png"
+    },
+    {
+      "id": 6,
+      "title": "cucumber",
+      "price": 20,
+      "src": "assets/cucumber.png"
+    },
+    {
+      "id": 7,
+      "title": "beetroot",
+      "price": 20,
+      "src": "assets/redroot.PNG"
+    },
+    {
+      "id": 8,
+      "title": "cabbage",
+      "price": 20,
+      "src": "assets/cabagi.PNG"
+    },
+    {
+      "id": 9,
+      "title": "tamato",
+      "price": 20,
+      "src": "assets/tomoto.PNG"
+    },
+    {
+      "id": 10,
+      "title": "brinjal",
+      "price": 20,
+      "src": "assets/Brinjal.jpg"
+    },
+    {
+      "id": 11,
+      "title": "mushrum",
+      "price": 20,
+      "src": "assets/mushrooms.jpg"
+    },
+    {
+      "id": 12,
+      "title": "radish",
+      "price": 20,
+      "src": "assets/radish.png"
+    },
+    {
+      "id": 13,
+      "title": "capsucum",
+      "price": 20,
+      "src": "assets/capisicum.PNG"
+    },
+    {
+      "id": 14,
+      "title": "ladys's finger",
+      "price": 20,
+      "src": "assets/lidesfinger.PNG"
+    },
+    {
+      "id": 15,
+      "title": "pumpkin",
+      "price": 20,
+      "src": "assets/pumpkin.png"
+    }
+  ],
+  "ListOfFruits": [
+    {
+      "id": 1,
+      "title": "apple",
+      "price": 20,
+      "src": "assets/applie.PNG"
+    },
+    {
+      "id": 2,
+      "title": "greapes",
+      "price": 20,
+      "src": "assets/grapes.PNG"
+    },
+    {
+      "id": 3,
+      "title": "guava",
+      "price": 20,
+      "src": "assets/guava.png"
+    },
+    {
+      "id": 4,
+      "title": "banana",
+      "price": 20,
+      "src": "assets/banana.PNG"
+    },
+    {
+      "id": 5,
+      "title": "mango",
+      "price": 20,
+      "src": "assets/mango.PNG"
+    },
+    {
+      "id": 6,
+      "title": "pomegranate",
+      "price": 20,
+      "src": "assets/pomegranate.png"
+    },
+    {
+      "id": 7,
+      "title": "watermelon",
+      "price": 20,
+      "src": "assets/watermilon.png"
+    },
+    {
+      "id": 8,
+      "title": "orange",
+      "price": 20,
+      "src": "assets/orange.PNG"
+    },
+    {
+      "id": 9,
+      "title": "kiwi",
+      "price": 20,
+      "src": "assets/kiwi.PNG"
+    },
+    {
+      "id": 10,
+      "title": "swapota",
+      "price": 20,
+      "src": "assets/swapoto.png"
+    },
+    {
+      "id": 11,
+      "title": "cherry",
+      "price": 20,
+      "src": "assets/leach.PNG"
+    },
+    {
+      "id": 12,
+      "title": "plum",
+      "price": 20,
+      "src": "assets/plum.png"
+    },
+    {
+      "id": 13,
+      "title": "custed apple",
+      "price": 20,
+      "src": "assets/custedappile.jpg"
+    },
+    {
+      "id": 14,
+      "title": "pear",
+      "price": 20,
+      "src": "assets/pear1.PNG"
+    },
+    {
+      "id": 15,
+      "title": "papaya",
+      "price": 20,
+      "src": "assets/pappaya.png"
+    }
+  ],
+  "ListOfGrocerries": [
+    {
+      "id": 1,
+      "title": "Oil",
+      "price": 20,
+      "src": "assets/oil.jpg"
+    },
+    {
+      "id": 2,
+      "title": "sugar",
+      "price": 20,
+      "src": "assets/suger.jpg"
+    },
+    {
+      "id": 3,
+      "title": "milk",
+      "price": 20,
+      "src": "assets/milk.png"
+    },
+    {
+      "id": 4,
+      "title": "egg",
+      "price": 20,
+      "src": "assets/egg.jpg"
+    },
+    {
+      "id": 5,
+      "title": "riceflore",
+      "price": 20,
+      "src": "assets/riceflore.png"
+    },
+    {
+      "id": 6,
+      "title": "redchilli",
+      "price": 20,
+      "src": "assets/chilli.jpg"
+    },
+    {
+      "id": 7,
+      "title": "redravva",
+      "price": 20,
+      "src": "assets/redrava.jpg"
+    },
+    {
+      "id": 8,
+      "title": "maida",
+      "price": 20,
+      "src": "assets/meida.jpg"
+    },
+    {
+      "id": 9,
+      "title": "dal",
+      "price": 20,
+      "src": "dal.png"
+    },
+    {
+      "id": 10,
+      "title": "red dal",
+      "price": 20,
+      "src": "assets/reddal.jpg"
+    },
+    {
+      "id": 11,
+      "title": "cake",
+      "price": 20,
+      "src": "assets/cake.png"
+    },
+    {
+      "id": 12,
+      "title": "bread",
+      "price": 20,
+      "src": "assets/bread.png"
+    },
+    {
+      "id": 13,
+      "title": "sandwich",
+      "price": 20,
+      "src": "assets/sandwich.png"
+    },
+    {
+      "id": 14,
+      "title": "nodles",
+      "price": 20,
+      "src": "assets/noodles.png"
+    },
+    {
+      "id": 15,
+      "title": "icecreams",
+      "price": 20,
+      "src": "assets/ice.jpg"
+    }
+  ],
+  "NewUsersList": [
+    {
+      "Name": "mouli",
+      "Email": "mouli.ramadasu@ojas-it.com",
+      "MobileNo": "9666966855",
+      "Password": "12345678",
+      "recaptcha": "03AGdBq24gT3s0WrLI4yeSiIgHqDQWFyk_djgt9vc1uQ2jBW98e6RM1A1ouac6nDlzj7oZI5g8dErUJtyXl-PJqKfGYrzZOoOeaiwLdWZuAE9T4R0VFubBk7TzutrVZM-zv23i9CuTv8s_H-ZYDm1ke07CAvC03ToA8uKh96x89xHDHcGtuCp9A-nkVGtk8igWCKsU6FqyTPGpu1OY7ZGfmHZMqzuQ90q_ZeVohGSYlv1qsK1wtHM8HzmMwA2zbOwfJmP4dQ6Aa9dBa7oostVwpRdcvfAxWa_qs23_25u-90JgnR8MLCHGgKAIsUJEueYJg2FepbPkTE3onpKG9c2c_AKZ5q5vmRQtHdegzya5Lmmu7l12LJzz7ztfhfsq80YTkPMe8xZu8_carh2m_wBSLxX3cNxAV1QRgRk_riRidt-7WZ4Tjh6F2Jo",
+      "ConfirmPassword": "12345678",
+      "id": 1
+    },
+    {
+      "Name": "raju",
+      "Email": "rajukaya@gmail.com",
+      "MobileNo": "9640208444",
+      "Password": "12345678",
+      "recaptcha": "03AGdBq268Yn0XUbaKk6Kg4hjNPYCAw1mW3bj8M6GYqJt6JKs885xHVAzXSqFFqqD0qIQWl4_Wyz9XreaA9oUoXRJoUgqndRW3c1kgGG92UBPOxMzef1jSue-C2ReAK9mdeEKrCoqYFqYPZZT5xNQRHTs1Rl2zntbxWIXYxycvx7Bkunn6f54h8RvN2339mLgleLzeWBUl9LHkYCUzGafYXidd62G-UgyZu5n7eie-BGYkmTBu_6s-73g2NMRYvUYyga4fa2V2XGO6OzuqrBVatt-ZDb_H2gbzJU_uwKEQgnBsVQkmb55Pf162gDrUcsIrIR_aIXeLMNZefVSt4-aazLf7UfQJfnWYg5JQkWcaAnC_wG3LbhAysmGj_b7LMp8BkpJlDYMdH9tgPTOdrXbg6kQawK1dSE_t_oTBuuqxAykhyz5goFKsVfg",
+      "ConfirmPassword": "12345678",
+      "id": 2
+    },
+    {
+      "Name": "krishna",
+      "Email": "sskrish@gmail.com",
+      "MobileNo": "8121881246",
+      "Password": "12345678",
+      "recaptcha": "03AGdBq27izCK07uqzTAG5YZlmLoWWwlZlo1biyFXgjfED6iokBq5mJVM3iJz-DIYMREVamnUAXzmSKTBLaqWb5sv855jPi7Z4u63hmuah4YNyJhAo2wEchRHVKFgTnUUKERqiz95nM-soQoZ1yOYp2xB2qThfQCBbKc83BIB6beOhNTYRL2zo1D6PFWn0s-0EjdUTXSJbCLzqr0r6VCR8NMXvhl9-iX8WIJ1gmgeOAlCRESQz1sT8ZHIPLiD72dvJQOX6MMMQzNbWENZbo-9gft0lPa0onMVl_SB1gxzbLOzbgEr50TulYc_XO5dal4LCOQcJb4-iIEcl2TuMVZ01t5FDjJYOyjLmLUPgJ4ZU9teNpmkLX6KILY1lVubqLvw8F6mgWTTkjXP8SqceL_CnfVk6u4d5U1iEf1Yo9h2lGFmGKvbTOx3WctXhz21vdVllP4v07DWk2lKN",
+      "ConfirmPassword": "12345678",
+      "id": 3
+    },
+    {
+      "Name": "sravan",
+      "Email": "sravan@gmail.com",
+      "MobileNo": "9666966855",
+      "Password": "12345678",
+      "recaptcha": "03AGdBq24PfesnmLXaR5WtcMsEaapuO0Ve_YzCN53Tda3gJHCnwl0AvOi6OY97c0b3J_zkJZX1jyAdACTjTmF_xG2I1vkMHFSwwD54J1VVoTRt5dUdWNc5V6dpOqdrgKHoJil2sKxjpCMfMuPbgzpmBYCtBFZ529zYW6WtyV7p1uBHttu3tRRsEqiqAiP_U6952pQU0W1EWe2ZlJLzThU2D0l2KMcGawGebwfW3Kywh4IHiB570rB4t3rJGC9RGUIGVXGMOPYK5MCySmTFUgXDYSSGtTf9iQQwilPrazisnd4BlI5NjH3rZPOw7jvjNkqaFP30zaTmFwPWUMjmGvtRKjXL1ugWVukjUKshGXhzAl8SgKEpsqxHF9DIXek7GNp-z1BWkfSTsQ0Rpv-UmuZE2hsEEBRk_H70itz7JOV8zEhiMjCPuRHtFe3cKPgGm8CCtJNHtmwjeaSk",
+      "ConfirmPassword": "12345678",
+      "id": 4
+    }
+  ],
+  "MyordersList": [
+    {
+      "id": 1,
+      "title": "carrot",
+      "price": 20,
+      "src": "assets/carot.PNG"
+    },
+    {
+      "id": 3,
+      "title": "corn",
+      "price": 20,
+      "src": "assets/corn.PNG"
+    },
+    {
+      "id": 4,
+      "title": "egg",
+      "price": 20,
+      "src": "assets/egg.jpg"
+    },
+    {
+      "id": 15,
+      "title": "icecreams",
+      "price": 20,
+      "src": "assets/ice.jpg"
+    },
+    {
+      "id": 12,
+      "title": "bread",
+      "price": 20,
+      "src": "assets/bread.png"
+    },
+    {
+      "id": 11,
+      "title": "mushrum",
+      "price": 20,
+      "src": "assets/mushrooms.jpg"
+    },
+    {
+      "id": 10,
+      "title": "red dal",
+      "price": 20,
+      "src": "assets/reddal.jpg"
+    },
+    {
+      "id": 7,
+      "title": "redravva",
+      "price": 20,
+      "src": "assets/redrava.jpg"
+    }
+  ]
+}

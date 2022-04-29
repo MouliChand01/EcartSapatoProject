@@ -1,0 +1,21 @@
+mat-card{
+    width: 50%;
+    text-align: center;
+}
+.registartion{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+}
+.text-center{
+    color: red;
+}
+.captcha{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}

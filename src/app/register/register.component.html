@@ -1,0 +1,65 @@
+<!-- 
+    ####################################################
+    ####### materail module for registartion From ###### 
+    ####################################################
+-->
+<div class="registartion">
+<mat-card>
+    <h1>Happy to see you for your registration</h1>
+    <form [formGroup]="registerForm" (ngSubmit)="newData()" autocomplete="off">
+    <p>
+        <mat-form-field appearance="standard">
+          <mat-label>Enter Name</mat-label>
+          <input matInput placeholder="Enter Name" autocomplete="off" formControlName="Name" >
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-error *ngIf="checkValidation('Name')">{{ nameErrors() }}</mat-error>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="standard">
+          <mat-label>Enter Email</mat-label>
+          <input matInput placeholder="Enter Email" autocomplete="off" formControlName="Email" (keyup)="getData('email')">
+          <mat-icon *ngIf="show" class="material-icons" matSuffix>email</mat-icon>
+          <mat-icon *ngIf="!show" class="material-icons" matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-error *ngIf="checkValidation('Email')">{{ emaiErrors() }}</mat-error>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="standard">
+          <mat-label>Enter MobileNo</mat-label>
+          <input matInput placeholder="Enter MobileNo" autocomplete="off" formControlName="MobileNo"  (keyup)="getData('mobile')">
+          <mat-icon *ngIf="show1" class="material-icons" matSuffix>phone</mat-icon>
+          <mat-icon *ngIf="!show1" class="material-icons" matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-error *ngIf="checkValidation('MobileNo')">{{ mobileErrors() }}</mat-error>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="standard">
+          <mat-label>Enter Password</mat-label>
+          <input matInput placeholder="Enter Password" autocomplete="off" formControlName="Password"  (keyup)="getData('password')">
+          <mat-icon *ngIf="show2" class="material-icons" matSuffix>password</mat-icon>
+          <mat-icon *ngIf="!show2" class="material-icons" matSuffix>sentiment_very_satisfied</mat-icon>
+            <div *ngIf="submitted && f.password.errors">
+              <div *ngIf="f.Password?.errors?.minlength">password should be more then 8 characters</div>
+            </div>
+          <mat-error *ngIf="checkValidation('Password')">{{ passwordErrors() }}</mat-error>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="standard">
+          <mat-label>Confirm Password</mat-label>
+          <input matInput placeholder="Confirm Password" autocomplete="off" formControlName="ConfirmPassword" (keyup)="getData('confirm')">
+          <mat-icon *ngIf="show3" class="material-icons" matSuffix>password</mat-icon>
+          <mat-icon *ngIf="!show3" class="material-icons" matSuffix>sentiment_very_satisfied</mat-icon>
+          <div *ngIf="submitted && f.password.errors">
+            <span class="text-center" *ngIf="registerForm.getError('mismatch')">no match</span>
+          </div>
+         </mat-form-field>
+    </p>
+    <div class="captcha">
+      <ngx-recaptcha2 #captchaElem [siteKey]="siteKey" formControlName="recaptcha"></ngx-recaptcha2>
+    </div>
+    <button mat-stroked-button color="accent" type="submit">Registired</button>
+</form>
+</mat-card>
+</div>
