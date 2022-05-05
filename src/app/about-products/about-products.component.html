@@ -5,6 +5,13 @@
         <button mat-button color="primary" (click)="getvagetables()">Vagetables</button>
         <button mat-button color="accent" (click)="getfruits()">Fruits</button>
         <button mat-button color="warn" (click)="getgrocery()">Grocerries</button>
+        <div style="float: right;">
+            <pagination-controls (pageChange)="page=$event"></pagination-controls>
+        </div>
+        <div class="input-group">
+            <input type="search"  class="form-control serach" placeholder="Search Items" aria-label="Search" aria-describedby="search-addon"  [(ngModel)]="term" />
+            <button type="button" class="btn btn-outline-primary">search</button>
+        </div>
     </div>
 </mat-card>
 
@@ -12,7 +19,8 @@
     ## dispalying itrating data  ## 
     ###############################-->
 <div class="fix-container" >
-    <div *ngFor="let itm of LoadContant" style="margin-top: 76px;">
+    <div *ngFor="let itm of LoadContant |paginate: { itemsPerPage: 3 , currentPage: page ,totalItems: totalLength } 
+                            | filter: term" style="margin-top: 76px;">
         <mat-card  class="mate-card" fxFlexAlign="stretch" >
             <mat-card-header>
                 <mat-card-title>{{itm.title | uppercase}}</mat-card-title>
@@ -28,7 +36,10 @@
             </mat-card-actions>
         </mat-card>
     </div>
+    
 </div>
+
+
 
 <!--############################### 
     ######### HideBackGround ###### 

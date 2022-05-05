@@ -23,6 +23,9 @@ import {NgxCaptchaModule} from 'ngx-captcha';
 import { AdminLogComponent } from './admin-log/admin-log.component';
 import { DatePipe } from '@angular/common';
 import { AdminAddProductComponent } from './admin-add-product/admin-add-product.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { NgxPrinterModule } from 'ngx-printer'
 
 @NgModule({
   declarations: [
@@ -49,7 +52,10 @@ import { AdminAddProductComponent } from './admin-add-product/admin-add-product.
     MatCardModule,
     MatIconModule,
     HttpClientModule,
-    NgxCaptchaModule
+    NgxCaptchaModule,
+    Ng2SearchPipeModule,
+    NgxPaginationModule,
+    NgxPrinterModule,
     
   ],
   providers: [EcartserService, DatePipe],

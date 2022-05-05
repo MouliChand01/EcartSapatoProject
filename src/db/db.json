@@ -321,22 +321,22 @@
       "src": "assets/carot.PNG"
     },
     {
+      "id": 2,
+      "title": "greapes",
+      "price": 20,
+      "src": "assets/grapes.PNG"
+    },
+    {
       "id": 3,
-      "title": "corn",
+      "title": "milk",
       "price": 20,
-      "src": "assets/corn.PNG"
+      "src": "assets/milk.png"
     },
     {
-      "id": 4,
-      "title": "egg",
+      "id": 7,
+      "title": "redravva",
       "price": 20,
-      "src": "assets/egg.jpg"
-    },
-    {
-      "id": 15,
-      "title": "icecreams",
-      "price": 20,
-      "src": "assets/ice.jpg"
+      "src": "assets/redrava.jpg"
     },
     {
       "id": 12,
@@ -345,22 +345,46 @@
       "src": "assets/bread.png"
     },
     {
-      "id": 11,
-      "title": "mushrum",
+      "id": 15,
+      "title": "pumpkin",
       "price": 20,
-      "src": "assets/mushrooms.jpg"
+      "src": "assets/pumpkin.png"
+    },
+    {
+      "id": 14,
+      "title": "ladys's finger",
+      "price": 20,
+      "src": "assets/lidesfinger.PNG"
+    },
+    {
+      "id": 8,
+      "title": "maida",
+      "price": 20,
+      "src": "assets/meida.jpg"
+    },
+    {
+      "id": 11,
+      "title": "cake",
+      "price": 20,
+      "src": "assets/cake.png"
+    },
+    {
+      "id": 13,
+      "title": "capsucum",
+      "price": 20,
+      "src": "assets/capisicum.PNG"
     },
     {
       "id": 10,
-      "title": "red dal",
+      "title": "swapota",
       "price": 20,
-      "src": "assets/reddal.jpg"
+      "src": "assets/swapoto.png"
     },
     {
-      "id": 7,
-      "title": "redravva",
+      "id": 9,
+      "title": "kiwi",
       "price": 20,
-      "src": "assets/redrava.jpg"
+      "src": "assets/kiwi.PNG"
     }
   ]
 }

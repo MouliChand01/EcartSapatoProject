@@ -49,10 +49,21 @@
 }
 .offer{
   text-align: center;
-  margin: 50px 0px 0px 112px;
+  margin: 50px 0px 0px 90px;
   text-transform: capitalize;
+  animation:blinking 2s infinite;
 }
-
+.serach:hover{
+  background-color: grey;
+  color: azure;
+}
+@keyframes blinking{
+  0%{  color: yellow; }
+  47%{  color: rgb(211, 9, 9); }
+  62%{  color: transparent; }
+  97%{  color:transparent; }
+  100%{ color: #000;  }
+  }
   
   
   

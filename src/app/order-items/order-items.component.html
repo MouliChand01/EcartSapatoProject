@@ -2,7 +2,7 @@
     <div class="mainHead">
         <h1>ORDER CONFIRMATION</h1>
     </div>
-    <div>
+    <div class="invoice">
         <h3><b>Customer Id :</b>10093837</h3>
         <h3><b>Customer Name :</b>{{name | uppercase}}</h3>
         <table class="table">
@@ -10,27 +10,40 @@
             <tbody><td>{{systemdate}}</td><td>112-9091047-294332</td><td>{{systemtime}}</td></tbody>
         </table>
         <br>
-        <table class="table" id="exceldata">
+        <table class="table">
             <thead  style="background-color: aqua;">
+                <td>Sno</td>
                 <td>Item Title</td>
                 <td>Item Quentity</td>
                 <td>Item Price</td>
             </thead>
-            <tbody *ngFor="let item of loadData">
+            <tbody *ngFor="let item of loadData; let i=index">
+                <td>{{i+1}}</td>
                 <td>{{item.title | uppercase}}</td>
-                <td>1Kg</td>
-                <td>${{item.price}}.00</td>
-        
+                <td>{{quantity}}Kg
+                    <span *ngIf="hide"><button class="incre" style="height: auto;" (click)="incre(item.id)">+</button>&nbsp; 
+                                       <button class="dicre" (click)="decre(item.id)">-</button>
+                    </span>
+                </td>
+                <td>${{quantity*item.price}}.00</td>
             </tbody>
             <tfoot>
-                <td colspan="2"> Grand Total : </td>
+                <td colspan="3"> Grand Total : </td>
                 <td style="background-color: rgb(0, 255, 200);">{{grandTotal}} /- Rupes</td>
             </tfoot>
         </table>
     </div>
     <div class="footbtn">
-        <button mat-raised-button color="primary" (click)="makeexcel()">download</button> &nbsp;
-        <button mat-raised-button color="primary" (click)="backAction()">Back</button> &nbsp;
-        <button mat-raised-button color="warn" (click)="procedToPay()" >Proceed to Payment</button>
+        <button mat-raised-button color="primary" printSectionId="invoice" ngxPrint ngxPrintItemButton  printWindow="true" (click)="hideing()">Download Invoice</button> &nbsp;
+        <button mat-raised-button color="warn" (click)="backAction()">Back</button> &nbsp;
+        <button mat-raised-button color="primary" (click)="procedToPay()" >Proceed to Pay</button>
     </div>
 </div>
+<!-- #######################################################
+    partcular property keys given options to the dropdownbox 
+    ######################################################## -->
+
+<!-- <select name="api-data" id="api-data" >
+    <option selected disabled>select</option>
+   <option *ngFor="let val of api" value="{{val.title}}">{{val.title}}</option>
+</select> -->

@@ -13,3 +13,10 @@ thead,tfoot{
 .footbtn{
     text-align: right;
 }
+.incre,.dicre{
+    border-radius: 50%;
+    height: fit-content;
+    color: rgb(125, 25, 207);
+    background-color: rgb(197, 194, 194);
+    text-shadow: 5px 10px #888888;
+}

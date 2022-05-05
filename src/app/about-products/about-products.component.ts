@@ -9,9 +9,13 @@ import { EcartserService } from '../ecartser.service';
 })
 export class AboutProductsComponent implements OnInit {
   
-  LoadContant:any;
+  LoadContant:any=[];
   modalId:any;
   show=true;
+  term:any;
+  totalLength:any;
+  page:number=1;
+  
 
 
   constructor(private src:EcartserService,private router:Router) { }
@@ -22,16 +26,19 @@ export class AboutProductsComponent implements OnInit {
 
   getvagetables(){
     this.show=false
-    this.src.GetVagetables().subscribe((data)=>this.LoadContant=data)
+    this.src.GetVagetables().subscribe((data)=>{this.LoadContant=data,
+    this.totalLength=this.LoadContant.length,console.log(this.totalLength)})
   }
   getfruits(){
     this.show=false
-    this.src.GetFurits().subscribe((data)=>this.LoadContant=data)
+    this.src.GetFurits().subscribe((data)=>{this.LoadContant=data,
+      this.totalLength=this.LoadContant.length,console.log(this.totalLength)})
   }
 
   getgrocery(){
     this.show=false
-    this.src.GetGrocerries().subscribe((data)=>this.LoadContant=data)
+    this.src.GetGrocerries().subscribe((data)=>{this.LoadContant=data,
+      this.totalLength=this.LoadContant.length,console.log(this.totalLength)})
   }
 
   getid(event:any){
