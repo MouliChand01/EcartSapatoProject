@@ -6,6 +6,7 @@ import { AdminLogComponent } from './admin-log/admin-log.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { OrderItemsComponent } from './order-items/order-items.component';
+import { PaymentComponent } from './payment/payment.component';
 import { RegisterComponent } from './register/register.component';
 import { WildcardComponent } from './wildcard/wildcard.component';
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:"Register",component:RegisterComponent},
   {path:"AdminLogin",component:AdminLogComponent},
   {path:"NewProduct",component:AdminAddProductComponent},
+  {path:"Payment",component:PaymentComponent},
   {path:"**",component:WildcardComponent}
   ];
 

@@ -1,0 +1,42 @@
+.card {
+    width: 50%;
+}
+
+.card-body {
+    margin: 20px;
+}
+
+.paymentPage {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+}
+
+h1 {
+    animation: blinking 2s infinite;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+
+@keyframes blinking {
+    0% {
+        color: yellow;
+    }
+
+    47% {
+        color: #000;
+    }
+
+    62% {
+        color: transparent;
+    }
+
+    97% {
+        color: transparent;
+    }
+
+    100% {
+        color: #000;
+    }
+}

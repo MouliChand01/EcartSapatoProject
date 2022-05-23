@@ -13,19 +13,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EcartserService } from './ecartser.service';
 
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
-import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {HttpClientModule} from '@angular/common/http';
-import {NgxCaptchaModule} from 'ngx-captcha';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { HttpClientModule } from '@angular/common/http';
+import { NgxCaptchaModule } from 'ngx-captcha';
 import { AdminLogComponent } from './admin-log/admin-log.component';
 import { DatePipe } from '@angular/common';
 import { AdminAddProductComponent } from './admin-add-product/admin-add-product.component';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 import { NgxPaginationModule } from 'ngx-pagination';
-import { NgxPrinterModule } from 'ngx-printer'
+import { NgxPrinterModule } from 'ngx-printer';
+import { PaymentComponent } from './payment/payment.component'
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { NgxPrinterModule } from 'ngx-printer'
     WildcardComponent,
     AdminLogComponent,
     AdminAddProductComponent,
+    PaymentComponent,
   
   ],
   imports: [

@@ -16,7 +16,9 @@ export class EcartserService {
 
   constructor(private http:HttpClient) { }
 
-  private subject = new BehaviorSubject<any>('Hello')
+  private subject = new BehaviorSubject<any>('Hello');
+  private subject1 = new BehaviorSubject<any>('bye');
+  private subject2 = new BehaviorSubject<any>('amout')
 
   // ########## Getting data From Api ######### //
   GetVagetables(){
@@ -66,7 +68,7 @@ export class EcartserService {
     return this.http.post(this.grocerries,data)
   }
 
-  // ########## implementing Subjects for data sharing ######### //
+  // ########## implementing Subjects for data sharing Name orderlist ######### //
 
   sendName(data:string){
     this.subject.next({text:data})
@@ -79,5 +81,25 @@ export class EcartserService {
   delateOrdersData(id:any){
     return this.http.delete(`${this.myorders}/${id}`)
   }
+  
+  // ########## implementing Subjects for data sharing home to paymentgetway ######### //
+
+
+  sendObject(data:any){
+    this.subject1.next(data)
+  }
+
+  getObject(){
+    return this.subject1.asObservable()
+  }
+
+  sendtotal(data:any){
+    this.subject2.next(data)
+  }
+
+  gettotal(){
+    return this.subject2.asObservable()
+  }
+  
 
 }

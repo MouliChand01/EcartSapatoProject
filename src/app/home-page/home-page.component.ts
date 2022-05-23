@@ -46,6 +46,7 @@ export class HomePageComponent implements OnInit {
   GotoSign() {
     let data=this.UserData.find((val:any)=>val.Name === this.Name);
     this.src.sendName(this.Name);
+    this.src.sendObject(data);
     if(this.str1 != this.str2){
       alert('Wrong capta Please give correctone')
     }

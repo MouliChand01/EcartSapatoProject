@@ -33,7 +33,7 @@ export class AdminLogComponent implements OnInit {
   }
 
   getwish(time:number){
-    if(this.amOrpm == "AM" && time>12 && time<4){
+    if(this.amOrpm == "AM" && time<12 ){
       this.wish1=true
     }
     if(this.amOrpm == "PM"){
